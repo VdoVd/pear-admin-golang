@@ -1,4 +1,4 @@
-package pear_admin_golang
+package main
 
 import (
 	"context"
