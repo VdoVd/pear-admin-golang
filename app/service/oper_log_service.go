@@ -2,15 +2,15 @@ package service
 
 import (
 	"encoding/json"
-	"pear-admin-go/app/util/ip"
 	"github.com/gin-gonic/gin"
-	"pear-admin-go/app/core/log"
-	dao2 "pear-admin-go/app/dao"
-	"pear-admin-go/app/util/clientIP"
+	"pear-admin-golang/app/core/log"
+	dao2 "pear-admin-golang/app/dao"
+	"pear-admin-golang/app/global/request"
+	"pear-admin-golang/app/model"
+	"pear-admin-golang/app/util/clientIP"
+	"pear-admin-golang/app/util/ip"
 
-	e2 "pear-admin-go/app/global/e"
-	"pear-admin-go/app/global/request"
-	"pear-admin-go/app/model"
+	e2 "pear-admin-golang/app/global/e"
 	"time"
 )
 

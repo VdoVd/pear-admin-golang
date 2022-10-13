@@ -6,10 +6,11 @@ import (
 )
 
 type Role struct {
-	Id        uint       `json:"id"`
+	ID        uint       `json:"id"`
 	RoleName  string     `json:"role_name"`
 	Detail    string     `json:"detail"`
 	CreateId  int        `json:"create_id"`
+	Status    int        `json:"status"`
 	UpdateId  int        `json:"update_id"`
 	RoleAuths []RoleAuth `json:"-" gorm:"foreignkey:RoleID"`
 	CreatedAt time.Time  `json:"created_at"`

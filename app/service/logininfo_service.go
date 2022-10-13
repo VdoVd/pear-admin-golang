@@ -1,11 +1,11 @@
 package service
 
 import (
-	"pear-admin-go/app/core/log"
-	dao2 "pear-admin-go/app/dao"
+	"pear-admin-golang/app/core/log"
+	dao2 "pear-admin-golang/app/dao"
 
-	"pear-admin-go/app/global/request"
-	"pear-admin-go/app/model"
+	"pear-admin-golang/app/global/request"
+	"pear-admin-golang/app/model"
 )
 
 func LoginInfoListJsonService(f request.LayerListForm) (count int, list []model.LoginInfo, err error) {
