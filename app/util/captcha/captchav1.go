@@ -3,7 +3,7 @@ package captcha
 import (
 	"github.com/mojocn/base64Captcha"
 	"image/color"
-	e "pear-admin-go/app/global/e"
+	e "pear-admin-golang/app/global/e"
 )
 
 // 设置自带的store

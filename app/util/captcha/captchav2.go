@@ -6,8 +6,8 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"net/http"
-	e2 "pear-admin-go/app/global/e"
-	"pear-admin-go/app/global/response"
+	e2 "pear-admin-golang/app/global/e"
+	"pear-admin-golang/app/global/response"
 	"time"
 )
 
